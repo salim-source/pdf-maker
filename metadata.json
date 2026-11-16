@@ -1,0 +1,6 @@
+{
+  "name": "Scanify – PDF Reader & QR Scanner",
+  "description": "Privacy-first cross-platform PDF document reader, live QR & barcode scanner, and QR code generator.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

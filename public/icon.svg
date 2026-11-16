@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0A1020" />
+      <stop offset="100%" stop-color="#111C38" />
+    </linearGradient>
+    <linearGradient id="accent" x1="96" y1="96" x2="416" y2="416" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <!-- Viewfinder corners -->
+  <path d="M128 184V144C128 135.163 135.163 128 144 128H184" stroke="url(#accent)" stroke-width="24" stroke-linecap="round" />
+  <path d="M328 128H368C376.837 128 384 135.163 384 144V184" stroke="url(#accent)" stroke-width="24" stroke-linecap="round" />
+  <path d="M128 328V368C128 376.837 135.163 384 144 384H184" stroke="url(#accent)" stroke-width="24" stroke-linecap="round" />
+  <path d="M328 384H368C376.837 384 384 376.837 384 368V328" stroke="url(#accent)" stroke-width="24" stroke-linecap="round" />
+  <!-- Document + Scan Matrix Center -->
+  <rect x="184" y="176" width="144" height="160" rx="20" fill="#18264A" stroke="#60A5FA" stroke-width="10" />
+  <rect x="212" y="210" width="44" height="44" rx="8" fill="#3B82F6" />
+  <rect x="272" y="214" width="28" height="12" rx="6" fill="#93C5FD" />
+  <rect x="272" y="238" width="28" height="12" rx="6" fill="#93C5FD" />
+  <rect x="212" y="276" width="88" height="12" rx="6" fill="#A78BFA" />
+  <rect x="212" y="300" width="60" height="12" rx="6" fill="#60A5FA" />
+</svg>

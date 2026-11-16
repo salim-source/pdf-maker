@@ -1,0 +1,2 @@
+-keep class com.scanify.app.data.model.** { *; }
+-dontwarn org.bouncycastle.**
